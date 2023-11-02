@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Integraciones Agricolas SL</string>
+
+    <string name="vacio"> </string>
+    <string name="decrementar">-</string>
+    <string name="incrementar">+</string>
+
+    //MAIN
+    <string name="TextoClickRegistroUsuarioActivityMain">¿No tienes un usuario todavía? Registrate aquí</string>
+    <string name="TextoUsuario">Introduce usuario</string>
+    <string name="TextoContrasenia">Introduce contraseña</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+
+
+    //Menú registrar datos usuario
+    <string name="menuInicioCabecera">Rellena los siguientes datos</string>
+    <string name="IntroduceNombreUsuario">Introduce nombre usuario</string>
+    <string name="IntroduceContrasenia">Introduce contraseña</string>
+    <string name="IntroduceApellido">Introduce apellidos</string>
+    <string name="IntroduceCorreoElectronico">Introduce correo electronico</string>
+    <string name="IntroduceCantidadProducto">Introduce docenas de huevos</string>
+    <string name="ConfirmarSuscripcion">Marca la casilla si deseas suscribirte</string>
+    <string name="textoBotonCrearUsuario">Crear usuario</string>
+
+    //Activity productos
+    <string name="cabeceraArticulos">Selecciona nuestros productos:</string>
+    <string name="anyadirCarrito">Añadir articulo al carrito</string>
+    <string name="tramitarPedido">Tramitar pedido</string>
+    <string name="cantidadPorDefecto">0</string>
+
+    //Activity compra exitosa
+    <string name="textViewCompraExitosa">La compra se ha realizado exitosamente, gracias</string>
+    <string name="buttonCompraExitosa">Aceptar</string>
+
+    //Activity error compra
+    <string name="textViewErrorCompra">Ha habido un problema con su método de pago</string>
+    <string name="buttonErrorCompra">Volver</string>
+
+    //Activity tramitar pedido
+    <string name="cabeceraTramitarPedido">Tramitar pedido</string>
+    <string name="botonPagar">Pagar</string>
+
+    //Activity terminos condiciones
+    <string name="CabeceraTerminosCondiciones">Terminos y condiciones</string>
+    <string name="TextoTerminosCondiciones">Los presentes Términos y condiciones de uso y la Política de privacidad rigen el uso del sitio web espana.edp.com, propiedad de EDP - Energias de Portugal, S.A. (en adelante EDP).
+                                        Si desea ponerse en contacto con EDP para tratar temas relacionados con este sitio web, puede hacerlo mediante el formulario disponible en https://www.edp.com/es/contactos-globales#contactos-generales.
+                                        El acceso y el uso de este sitio web es responsabilidad total del usuario, que está sujeto a la aceptación de los presentes términos y condiciones de uso, de la política de privacidad y el uso de los datos aquí transcritos. El uso de este sitio web y las relaciones entre EDP y los usuarios se rigen por la legislación portuguesa aplicable.
+                                        EDP se reserva el derecho de cambiar los presentes términos y condiciones de uso o revisar la política de privacidad y uso de datos en los presentes identificados siempre que lo considere oportuno, en cualquier momento, con o sin previo aviso. Para consultar su versión actual, haga clic en los "Términos y condiciones de uso" que se encuentran en el sitio web de EDP. La versión más actual de los Términos y condiciones de uso sustituye todas las versiones anteriores.
+                                        Si no está de acuerdo con estos Términos y condiciones de uso, no utilice el sitio web. Estos Términos y condiciones de uso y la Política de privacidad constituyen un contrato entre el usuario y EDP, y se aplican en el uso del sitio web. Es responsabilidad del usuario leer y revisar los mismos cada vez que accede al sitio web, con el fin de conocer cualquier cambio realizado, ya que los mismos afectan a sus derechos.</string>
+
+</resources>

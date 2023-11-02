@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff3e0"
+    tools:context=".TramitarPedido">
+
+  <LinearLayout
+      android:layout_width="398dp"
+      android:layout_height="153dp"
+      android:layout_marginTop="60dp"
+      android:orientation="vertical"
+      app:layout_constraintHorizontal_bias="0.461"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <ImageView
+          android:id="@+id/imageHuevoJaula"
+          android:layout_width="197dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/gallina_enjaulada" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewCabeceraHuevosJaula"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio"
+              android:textStyle="bold|italic"/>
+
+          <Button
+              android:id="@+id/buttonAumentarHuevoJaula"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/incrementar" />
+
+          <TextView
+              android:id="@+id/textViewCantidadHuevoJaula"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio" />
+
+          <Button
+              android:id="@+id/buttonDecrementarHuevoJaula"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/decrementar" />
+        </LinearLayout>
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="398dp"
+      android:layout_height="142dp"
+      android:layout_marginTop="250dp"
+      android:orientation="vertical"
+      app:layout_constraintHorizontal_bias="0.461"
+      app:layout_constraintLeft_toLeftOf="parent"
+
+
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <ImageView
+          android:id="@+id/imageViewGallinaCampera"
+          android:layout_width="197dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/gallina_campera" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewCabeceraHuevoCampero"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio"
+              android:textStyle="bold|italic"/>
+
+          <Button
+              android:id="@+id/buttonAumentarHuevoCampero"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/incrementar" />
+
+          <TextView
+              android:id="@+id/textViewCantidadHuevoCampero"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio" />
+
+          <Button
+              android:id="@+id/buttonDecrementarHuevoCampero"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/decrementar" />
+        </LinearLayout>
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="398dp"
+      android:layout_height="142dp"
+      android:layout_marginTop="450dp"
+      android:orientation="vertical"
+      app:layout_constraintHorizontal_bias="0.461"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <ImageView
+          android:id="@+id/imageViewClaraHuevo"
+          android:layout_width="197dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/clara_huevo" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/textViewCabeceraClaraHuevo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio"
+              android:textStyle="bold|italic"/>
+
+          <Button
+              android:id="@+id/buttonAumentarClaraHuevo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/incrementar" />
+
+          <TextView
+              android:id="@+id/textViewCantidadClaraHuevo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/vacio" />
+
+          <Button
+              android:id="@+id/buttonDecrementarClaraHuevo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/decrementar" />
+        </LinearLayout>
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/buttonPagar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="636dp"
+      android:text="@string/botonPagar"
+      app:layout_constraintHorizontal_bias="0.919"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewPrecioFinal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="656dp"
+      android:textStyle="bold"
+      android:textSize="20dp"
+      android:text="@string/vacio"
+      app:layout_constraintHorizontal_bias="0.195"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewSugerenciaHuevoEnJaula"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:text="@string/vacio"
+      app:layout_constraintHorizontal_bias="0.016"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewSugerenciaHuevoCamperos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="228dp"
+      android:text="@string/vacio"
+      app:layout_constraintHorizontal_bias="0.031"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewSugerenciaClaraHuevo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="428dp"
+      android:text="@string/vacio"
+      app:layout_constraintHorizontal_bias="0.016"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewCabeceraTramitarPedido"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="25dp"
+      android:text="@string/cabeceraTramitarPedido"
+      app:layout_constraintHorizontal_bias="0.538"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
