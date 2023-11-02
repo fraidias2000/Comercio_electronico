@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Practica3</string>
+
+    <string name="vacio"> </string>
+
+    //MAIN
+    <string name="TextoServicio">Suscripción mensual</string>
+    <string name="TextoProducto">Comprar huevos</string>
+
+    //Botones pantalla principal
+    <string name="ComprarProducto">Comprar Producto</string>
+    <string name="ComprarServicio">Comprar Servicio</string>
+
+    //Menú formulario
+    <string name="menuInicioCabecera">Rellena los siguientes datos</string>
+    <string name="IntroduceNombreUsuario">Introduce nombre usuario</string>
+    <string name="IntroduceApellido">Introduce apellidos</string>
+    <string name="IntroduceCorreoElectronico">Introduce correo electronico</string>
+    <string name="IntroduceCantidadProducto">Introduce docenas de huevos</string>
+    <string name="ConfirmarSuscripcion">Marca la casilla si deseas suscribirte</string>
+    <string name="textoBotonTramitarPedido">Tramitar pedido</string>
+    <string name="textoBotonTramitarSuscripcion">Tramitar suscripcion</string>
+    <string name="textoCheckSuscripcionMensual">Suscripcion mensual (5€/mes)</string>
+    <string name="textoCheckSuscripcionAnual">Suscripcion anual (50€)</string>
+
+    //Activity comprar producto
+    <string name="cabeceraActivityComprarProducto">Selecciona cantidad de producto a comprar (1 docena = 3€)</string>
+    <string name="decrementarActivityComprarProducto">-</string>
+    <string name="incrementarActivityComprarProducto">+</string>
+    <string name="aceptarComprarActivityComprarProducto">Mostrar resumen compra</string>
+    <string name="confirmarCompraActivityComprarProducto">Aceptar compra y pagar</string>
+    <string name="cantidadProductoPorDefectoActivityComprarProducto">0</string>
+
+    //Activity compra exitosa
+    <string name="textViewCompraExitosa">La compra se ha realizado exitosamente, gracias</string>
+    <string name="buttonCompraExitosa">Aceptar</string>
+
+    //Activity error compra
+    <string name="textViewErrorCompra">Ha habido un problema con su método de pago</string>
+    <string name="buttonErrorCompra">Volver</string>
+</resources>
